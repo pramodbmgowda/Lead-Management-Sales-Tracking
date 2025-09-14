@@ -1,18 +1,42 @@
-# Salesforce DX Project: Next Steps
+Lead Management & Sales Tracking
+* Industry: Retail / Services 
+* Project Type: B2B Salesforce CRM Implementation
+* Target Users: Sales Agents, Sales Managers, and Prospective Customers
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## How Do You Plan to Deploy Your Changes?
+Problem Statement
+A sales team relies on spreadsheets and email to manage leads, causing inefficiencies and missed opportunities. Follow-ups are delayed, duplicate leads exist, and managers lack real-time visibility into the sales funnel. Without a centralized CRM, forecasting and performance tracking become unreliable.
+To overcome these challenges, the company wants to implement a Salesforce CRM to:
+* Automate lead capture and routing
+* Improve follow-up and customer engagement
+* Provide managers with real-time sales insights
+* Ensure data accuracy and consistency
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+The Salesforce solution will support the following key business processes:
+* Lead Management
+   * Capture leads automatically from website forms and campaigns.
+   * Route leads to appropriate agents based on geography or product line.
+   * Qualify leads using priority, source, or scoring rules.
+* Follow-up & Nurturing
+   * Automate reminders and notifications for timely customer follow-ups.
+   * Track lead activities (emails, calls, meetings) in Salesforce.
+   * Update lead status dynamically (New → Working → Converted → Closed).
+* Sales Tracking
+   * Monitor conversion rates across different lead sources.
+   * Provide managers with dashboards to view active leads, bottlenecks, and rep performance.
+   * Forecast the sales pipeline based on real-time data.
+* Reporting & Analytics
+   * Build dashboards for monthly lead conversion trends.
+   * Track agent activity and response times.
+   * Analyze sales funnel performance to optimize campaigns.
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+   
+Expected Impact
+Successful implementation of this project will deliver the following key benefits:
+* Increased Efficiency: Sales reps will spend less time on manual updates and more time engaging with potential customers.
+* Improved Conversion: Automated follow-ups will reduce the chances of losing potential customers.
+* Data Accuracy: Standardized fields and validations will ensure a clean, reliable database.
+* Manager Visibility: Real-time dashboards will enable managers to make informed, data-driven decisions and provide accurate forecasting.
