@@ -13,7 +13,6 @@ To overcome these challenges, the company wants to implement a Salesforce CRM to
 * Ensure data accuracy and consistency
 
 
-
 The Salesforce solution will support the following key business processes:
 * Lead Management
    * Capture leads automatically from website forms and campaigns.
