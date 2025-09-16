@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Lead Management & Sales Tracking
 * Industry: Retail / Services 
 * Project Type: B2B Salesforce CRM Implementation
@@ -39,3 +40,6 @@ Successful implementation of this project will deliver the following key benefit
 * Improved Conversion: Automated follow-ups will reduce the chances of losing potential customers.
 * Data Accuracy: Standardized fields and validations will ensure a clean, reliable database.
 * Manager Visibility: Real-time dashboards will enable managers to make informed, data-driven decisions and provide accurate forecasting.
+=======
+# Lead-Management-Sales-Tracking
+>>>>>>> 09cb7a272d94fbdb4d9b552e3cc16b9058f7b6e4
