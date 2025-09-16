@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Lead Management & Sales Tracking
 * Industry: Retail / Services 
 * Project Type: B2B Salesforce CRM Implementation
