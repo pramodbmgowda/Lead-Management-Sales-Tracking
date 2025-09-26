@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Lead Follow-Up Tasks" icon-name="standard:task">
+        <lightning-button label="Create Follow-up Task" onclick={handleCreateTask}
+            class="slds-m-bottom_small"></lightning-button>
+        <template if:true={tasks.data}>
+            <template if:true={tasks.data.length}>
+                <lightning-datatable key-field="Id" data={tasks.data} columns={columns}>
+                </lightning-datatable>
+            </template>
+            <template if:false={tasks.data.length}>
+                <p>No pending follow-up tasks.</p>
+            </template>
+        </template>
+        <template if:true={tasks.error}>
+            <p class="slds-text-color_error">{tasks.error}</p>
+        </template>
+    </lightning-card>
+</template>
